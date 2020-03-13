@@ -1,0 +1,27 @@
+<!--miniprogram/pages/testIndex/index.wxml-->
+<view class="page-wraper">
+<swiper autoplay="{{true}}" class="swiper" indicator-dots>
+    <swiper-item wx:for="{{swiperArr}}" class="swiper-item" wx:key="index">
+        <image src="{{swiperUrl}}{{item}}.jpg" />
+    </swiper-item>
+</swiper>
+<view class="icon-wraper">
+    <view class="icon">
+        <image src="../../images/jkzzjIcon/爱心.png" />
+        <navigator url="../daocheng/index"><text style="color:#008EFF">稻城之旅></text></navigator> 
+    </view>
+</view>
+<view class="say-wraper">
+    <view class="input-wraper">
+        <input  bindinput="bindKeyInput" auto-focus="{{true}}" placeholder="花有什么想对猪说的呢？" />
+    </view>
+    <button class="save-btn" type="primary" loading="{{loading}}" disabled="{{disabled}}" bindtap="onTap">
+            保存
+    </button>
+    <view class="say-content">
+        <text >{{sayContent}}</text>
+    </view>
+</view>
+
+
+</view>

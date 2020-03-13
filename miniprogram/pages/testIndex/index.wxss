@@ -1,0 +1,46 @@
+/* miniprogram/pages/testIndex/index.wxss */
+page{
+    background-color: #F7F7F7;
+}
+.page-wraper{
+    display: flex;
+    flex-direction: column;
+}
+.swiper{
+    height: 600rpx;
+}
+.swiper-item image{
+    width: 100%;
+    height: 100%;
+}
+.icon-wraper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 40rpx 0;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.icon image{
+    width: 100rpx;
+    height: 100rpx;
+}
+.say-wraper{
+    margin: 0 20rpx;
+    display: flex;
+    flex-direction: column;
+}
+.input-wraper{
+    background-color: white;
+    padding: 20rpx;
+}
+.save-btn{
+    margin: 20rpx 0;
+}
+.say-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

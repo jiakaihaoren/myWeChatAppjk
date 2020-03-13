@@ -1,0 +1,7 @@
+<!--pages/daocheng/index.wxml-->
+<view >
+    <view class="img-wraper" wx:for="{{imgArr}}" wx:key="id">
+         <image src="{{item.url}}" />
+         <text >{{item.name}}</text>
+    </view> 
+</view>

@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/testIndex/index",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/daocheng/index",
+    "pages/template/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#47B751",
+    "navigationBarTitleText": "jk ♥ zzj",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath": "pages/testIndex/index",
+        "text":"我的首页",
+        "iconPath":"./images/首页.png",
+        "selectedIconPath":"./images/首页selected.png"
+      },
+      {
+        "pagePath":  "pages/template/index",
+        "text": "测试",
+        "iconPath":"./images/测试.png",
+        "selectedIconPath":"./images/测试selected.png"
+      }
+    ],
+    "backgroundColor":"#47B751",
+    "color":"008EFF",
+    "selectedColor":"FFFFFE"  
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
