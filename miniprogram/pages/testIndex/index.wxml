@@ -7,7 +7,7 @@
 </swiper>
 <view class="icon-wraper">
     <view class="icon">
-        <image src="../../images/jkzzjIcon/爱心.png" />
+        <image src="../../images/1.png" />
         <navigator url="../daocheng/index"><text style="color:#008EFF">稻城之旅></text></navigator> 
     </view>
 </view>
